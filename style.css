@@ -19,8 +19,16 @@ body * {
   font-family: "Inter", sans-serif;
   color: white;
 }
-#profile p{
+#profile p{ 
   font-weight: 500;
   line-height: 24px;
-  margin: auto;
+  margin-top: 8px;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
 }
