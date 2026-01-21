@@ -25,13 +25,12 @@
   --switch-bg: url(./assets/sun.svg);
 }
 body {
-  background-image: var(--bg-url);
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: top center;
+  background: var(--bg-url) no-repeat top center/cover;
+ height: 100vh;
 }
 #container {
-  width: 588px;
+  width: 100%;
+  max-width: 588px;
   margin: 0px auto 0px;
   padding: 0 24px;
   align-items: center;
