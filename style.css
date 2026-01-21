@@ -4,10 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  background: var(--bg-url);
-}
-
 :root {
   --text-color: white;
   --bg-url:url(./assets/bg-desktop.jpg);
@@ -33,6 +29,11 @@ body {
   background: var(--bg-url) no-repeat top center/cover;
   height: 100svh;
 }
+
+html {
+  background: var(--bg-url) no-repeat top center/cover;
+}
+
 #container {
   width: 100%;
   max-width: 588px;
