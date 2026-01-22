@@ -31,8 +31,8 @@ body {
 }
 
 html {
-  background: black;
-}
+  background: var(--surface-color);
+} 
 
 #container {
   width: 100%;
